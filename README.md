@@ -1,16 +1,39 @@
-# social_media
+# Flutter Chat App
 
-A new Flutter project.
+A social messaging application built using Flutter, inspired by WhatsApp.  
+This project demonstrates real-time communication, authentication, and modern UI design with Flutter and Firebase (or your preferred backend).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+- Real-time one-to-one chat
+- Group chat support
+- User authentication (sign up, login, logout)
+- Online/offline presence
+- Profile management
+- Message status (sent, delivered, seen)
+- Media sharing (images, videos, files)
+- Cross-platform support (Android, iOS, Web)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+- Install [Flutter](https://flutter.dev/docs/get-started/install) (latest stable version recommended).
+- Set up Firebase or your preferred backend for authentication and real-time messaging.
+- Ensure you have an emulator/simulator or a physical device connected.
+
+### Steps
+```bash
+# Clone this repository
+git clone https://github.com/your-username/flutter-chat-app.git
+
+# Navigate into the project folder
+cd flutter-chat-app
+
+# Get dependencies
+flutter pub get
+
+# Run the app
+flutter run
